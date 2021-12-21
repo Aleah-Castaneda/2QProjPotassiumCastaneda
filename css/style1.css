@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	background-color: #2D4C2A;
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+header{
+	height: 10%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 85px;
+	margin-top: 10px;
+}
+nav{
+	flex: 1;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+nav a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-family: Helvetica;
+}
+.home:hover{
+	color: #ffff00;
+}
+.row{
+	display: flex;
+	align-items: center:
+}
+.col{
+	flex-basis: 50%;
+	margin-top: 5px;
+}
+h1{
+	color: #fff;
+	font-size: 47px;
+	font-family: Segoe UI;
+	margin-top: 2.6cm;
+}
+p{
+	color: #fff;
+	font-size: 17px;
+	font-family: Calibri;
+	padding-right: 40px;
+	text-align: justify;
+}	
+.card{
+	width: 600px;
+	height: 500px;
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background-position: center;
+	background-size: cover;
+}
+footer{
+	padding: 0;
+	background-color: #fff;
+	margin-top: 10px;
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+}
+.social-links{
+	display: flex;
+}
+.social-links ul{
+	display: flex;
+}
+.social-items{
+	list-style: none;
+}
+.social-items a{
+	padding: 10px 10px;
+	font-size: 28px;
+	color: #996633;
+}
+.social-items:hover{
+	transform: scale(1.1) translateX(10%);
+}
+
+
+	
+	
